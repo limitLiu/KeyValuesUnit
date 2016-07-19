@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175D30261CBB4992009C5A84 /* LIUConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D301D1CBB4992009C5A84 /* LIUConst.m */; };
+		175D30271CBB4992009C5A84 /* LIUProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D301F1CBB4992009C5A84 /* LIUProperty.m */; };
+		175D30281CBB4992009C5A84 /* LIUPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D30211CBB4992009C5A84 /* LIUPropertyType.m */; };
+		175D30291CBB4992009C5A84 /* NSObject+KeyValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D30231CBB4992009C5A84 /* NSObject+KeyValues.m */; };
+		175D302A1CBB4992009C5A84 /* NSObject+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D30251CBB4992009C5A84 /* NSObject+Properties.m */; };
+		175D302B1CBB4B45009C5A84 /* LIUConst.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 175D301C1CBB4992009C5A84 /* LIUConst.h */; };
+		175D302C1CBB4B45009C5A84 /* LIUProperty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 175D301E1CBB4992009C5A84 /* LIUProperty.h */; };
+		175D302D1CBB4B45009C5A84 /* LIUPropertyType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 175D30201CBB4992009C5A84 /* LIUPropertyType.h */; };
+		175D302E1CBB4B45009C5A84 /* NSObject+KeyValues.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 175D30221CBB4992009C5A84 /* NSObject+KeyValues.h */; };
+		175D302F1CBB4B45009C5A84 /* NSObject+Properties.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 175D30241CBB4992009C5A84 /* NSObject+Properties.h */; };
+		175D30311CBB4BF7009C5A84 /* LIUKeyValues.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 175D30301CBB4BC0009C5A84 /* LIUKeyValues.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		175D300E1CBB4948009C5A84 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				175D30311CBB4BF7009C5A84 /* LIUKeyValues.h in CopyFiles */,
+				175D302B1CBB4B45009C5A84 /* LIUConst.h in CopyFiles */,
+				175D302C1CBB4B45009C5A84 /* LIUProperty.h in CopyFiles */,
+				175D302D1CBB4B45009C5A84 /* LIUPropertyType.h in CopyFiles */,
+				175D302E1CBB4B45009C5A84 /* NSObject+KeyValues.h in CopyFiles */,
+				175D302F1CBB4B45009C5A84 /* NSObject+Properties.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		175D30101CBB4948009C5A84 /* libKeyValuesUnit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKeyValuesUnit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		175D301C1CBB4992009C5A84 /* LIUConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUConst.h; sourceTree = "<group>"; };
+		175D301D1CBB4992009C5A84 /* LIUConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUConst.m; sourceTree = "<group>"; };
+		175D301E1CBB4992009C5A84 /* LIUProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUProperty.h; sourceTree = "<group>"; };
+		175D301F1CBB4992009C5A84 /* LIUProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUProperty.m; sourceTree = "<group>"; };
+		175D30201CBB4992009C5A84 /* LIUPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIUPropertyType.h; sourceTree = "<group>"; };
+		175D30211CBB4992009C5A84 /* LIUPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIUPropertyType.m; sourceTree = "<group>"; };
+		175D30221CBB4992009C5A84 /* NSObject+KeyValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KeyValues.h"; sourceTree = "<group>"; };
+		175D30231CBB4992009C5A84 /* NSObject+KeyValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KeyValues.m"; sourceTree = "<group>"; };
+		175D30241CBB4992009C5A84 /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Properties.h"; sourceTree = "<group>"; };
+		175D30251CBB4992009C5A84 /* NSObject+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Properties.m"; sourceTree = "<group>"; };
+		175D30301CBB4BC0009C5A84 /* LIUKeyValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUKeyValues.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175D300D1CBB4948009C5A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175D30071CBB4948009C5A84 = {
+			isa = PBXGroup;
+			children = (
+				175D30121CBB4948009C5A84 /* KeyValuesUnit */,
+				175D30111CBB4948009C5A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		175D30111CBB4948009C5A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				175D30101CBB4948009C5A84 /* libKeyValuesUnit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		175D30121CBB4948009C5A84 /* KeyValuesUnit */ = {
+			isa = PBXGroup;
+			children = (
+				175D301C1CBB4992009C5A84 /* LIUConst.h */,
+				175D301D1CBB4992009C5A84 /* LIUConst.m */,
+				175D301E1CBB4992009C5A84 /* LIUProperty.h */,
+				175D301F1CBB4992009C5A84 /* LIUProperty.m */,
+				175D30201CBB4992009C5A84 /* LIUPropertyType.h */,
+				175D30211CBB4992009C5A84 /* LIUPropertyType.m */,
+				175D30221CBB4992009C5A84 /* NSObject+KeyValues.h */,
+				175D30231CBB4992009C5A84 /* NSObject+KeyValues.m */,
+				175D30241CBB4992009C5A84 /* NSObject+Properties.h */,
+				175D30251CBB4992009C5A84 /* NSObject+Properties.m */,
+				175D30301CBB4BC0009C5A84 /* LIUKeyValues.h */,
+			);
+			path = KeyValuesUnit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		175D300F1CBB4948009C5A84 /* KeyValuesUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175D30191CBB4948009C5A84 /* Build configuration list for PBXNativeTarget "KeyValuesUnit" */;
+			buildPhases = (
+				175D300C1CBB4948009C5A84 /* Sources */,
+				175D300D1CBB4948009C5A84 /* Frameworks */,
+				175D300E1CBB4948009C5A84 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyValuesUnit;
+			productName = KeyValuesUnit;
+			productReference = 175D30101CBB4948009C5A84 /* libKeyValuesUnit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		175D30081CBB4948009C5A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "劉裕";
+				TargetAttributes = {
+					175D300F1CBB4948009C5A84 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G83A8HGB49;
+					};
+				};
+			};
+			buildConfigurationList = 175D300B1CBB4948009C5A84 /* Build configuration list for PBXProject "KeyValuesUnit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 175D30071CBB4948009C5A84;
+			productRefGroup = 175D30111CBB4948009C5A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				175D300F1CBB4948009C5A84 /* KeyValuesUnit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		175D300C1CBB4948009C5A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175D30261CBB4992009C5A84 /* LIUConst.m in Sources */,
+				175D30271CBB4992009C5A84 /* LIUProperty.m in Sources */,
+				175D302A1CBB4992009C5A84 /* NSObject+Properties.m in Sources */,
+				175D30281CBB4992009C5A84 /* LIUPropertyType.m in Sources */,
+				175D30291CBB4992009C5A84 /* NSObject+KeyValues.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		175D30171CBB4948009C5A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		175D30181CBB4948009C5A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		175D301A1CBB4948009C5A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		175D301B1CBB4948009C5A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		175D300B1CBB4948009C5A84 /* Build configuration list for PBXProject "KeyValuesUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175D30171CBB4948009C5A84 /* Debug */,
+				175D30181CBB4948009C5A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		175D30191CBB4948009C5A84 /* Build configuration list for PBXNativeTarget "KeyValuesUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175D301A1CBB4948009C5A84 /* Debug */,
+				175D301B1CBB4948009C5A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 175D30081CBB4948009C5A84 /* Project object */;
+}
